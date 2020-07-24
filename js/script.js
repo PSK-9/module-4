@@ -71,8 +71,8 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
     for(var i=0;i<names.length;i++){
         var ch=names[i].charAt(0).toLowerCase();
         if(ch==='j')
-        byeSpeaker(names[i]);
+        byeSpeaker.speak(names[i]);
         else
-        helloSpeaker(names[i]);
+        helloSpeaker.speak(names[i]);
     }
 })();
